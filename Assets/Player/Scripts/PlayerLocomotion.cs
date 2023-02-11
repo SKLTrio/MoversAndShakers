@@ -20,7 +20,7 @@ public class PlayerLocomotion : MonoBehaviour
 
     void Start()
     {
-        Cursor.visible = false;
+        Cursor.visible = true;
         characterController = GetComponent<CharacterController>();
         SetCurrentCamera();
     }
